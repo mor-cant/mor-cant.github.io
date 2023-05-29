@@ -1,0 +1,47 @@
+html > body > header {
+    padding: 0 2rem;
+}
+
+header > ul.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header > ul.nav li {
+    display: flex;
+    flex-direction: column;
+}
+
+header > ul.nav .nav-title-container {
+    text-align: left;
+    flex-grow: 1;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+header > ul.nav .nav-title {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+header > ul.nav .nav-subtitle {
+    margin-bottom: .25rem;
+    margin-top: .25rem;
+}
+
+header > ul.nav .contact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+header > ul.nav .contact button {
+    margin-top: 0;
+    margin-bottom: 0;
+}
