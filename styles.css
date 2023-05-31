@@ -58,12 +58,17 @@ header > ul.nav .contact button {
     border: 1px solid var(--code);
 }
 
+html > body > main {
+    padding: 2rem;
+}
+
 html > body > footer {
     width: 100%;
     background-color: var(--accent-bg);
     color: var(--text);
     text-align: left;
     padding: 2rem;
+    margin-top: 0;
 }
 
 html > body > footer a , html > body > footer a:visited {
