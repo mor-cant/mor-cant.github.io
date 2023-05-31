@@ -1,3 +1,8 @@
+html > body {
+    display: flex;
+    flex-direction: column;
+}
+
 html > body > header {
     padding: 0 2rem;
 }
@@ -51,4 +56,9 @@ header > ul.nav .contact button {
     background-color: transparent;
     color: var(--code);
     border: 1px solid var(--code);
+}
+
+body > footer {
+    width: 100%;
+    background-color: var(--accent-bg);
 }
