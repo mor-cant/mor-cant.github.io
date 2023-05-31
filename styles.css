@@ -30,6 +30,10 @@ header > ul.nav .nav-title {
     margin-left: 0;
 }
 
+header > ul.nav .nav-title a {
+    color: var(--code);
+}
+
 header > ul.nav .nav-subtitle {
     margin-bottom: .25rem;
     margin-top: .25rem;
@@ -44,4 +48,7 @@ header > ul.nav .contact {
 header > ul.nav .contact button {
     margin-top: 0;
     margin-bottom: 0;
+    background-color: transparent;
+    color: var(--code);
+    border: 1px solid var(--code);
 }
