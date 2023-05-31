@@ -35,7 +35,7 @@ header > ul.nav .nav-title {
     margin-left: 0;
 }
 
-header > ul.nav .nav-title a {
+header > ul.nav .nav-title a, header > ul.nav .nav-title a:visited {
     color: var(--code);
 }
 
@@ -58,7 +58,14 @@ header > ul.nav .contact button {
     border: 1px solid var(--code);
 }
 
-body > footer {
+html > body > footer {
     width: 100%;
     background-color: var(--accent-bg);
+    color: var(--text);
+    text-align: left;
+    padding: 2rem;
+}
+
+html > body > footer a , html > body > footer a:visited {
+    color: var(--code);
 }
